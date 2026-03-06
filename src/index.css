@@ -1,0 +1,114 @@
+/* =========================
+   GOOGLE FONTS
+========================= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap');
+
+
+/* =========================
+   RESET
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* =========================
+   ROOT FONT SETTINGS
+========================= */
+:root {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* =========================
+   BODY STYLING
+========================= */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+/* =========================
+   ROOT CONTAINER
+========================= */
+#root {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+/* =========================
+   HEADINGS
+========================= */
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+
+/* =========================
+   PARAGRAPH TEXT
+========================= */
+p {
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   BUTTON STYLING
+========================= */
+button {
+  background: #3b82f6;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+}
+
+
+/* =========================
+   INPUT FIELDS
+========================= */
+input, select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: white;
+  outline: none;
+}
+
+input:focus, select:focus {
+  border-color: #3b82f6;
+}
+
+
+/* =========================
+   SCROLLBAR CLEAN LOOK
+========================= */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 10px;
+}
